@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 #check whether root user or not
