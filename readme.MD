@@ -54,5 +54,9 @@
 
 - docker compose up -d 
 
-- docker compose down -d
+- Open Ip in browser, website is ready
+
+# To delete
+
+- docker compose down -d  
 
