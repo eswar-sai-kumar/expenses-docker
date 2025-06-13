@@ -11,8 +11,12 @@ module "docker" {
   vpc_security_group_ids = ["sg-0fb4314a3e3c19b76"] #replace your SG
   subnet_id = "subnet-026fa8e1dc737230f" #replace your Subnet
   ami = data.aws_ami.ami_info.id
+  root_block_device = [{
+    volume_size = 50        
+    volume_type = "gp3"      
+  }]
+
   tags = {
     Name = "docker"
   }
 }
-
