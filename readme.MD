@@ -54,7 +54,7 @@
 
 - docker compose up -d 
 
-- Open Ip in browser, website is ready
+- Open IP in browser, website is ready
 
 # To delete
 
